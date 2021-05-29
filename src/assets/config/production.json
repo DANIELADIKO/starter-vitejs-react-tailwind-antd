@@ -1,0 +1,248 @@
+{
+  "HOST_API-DEV": "https://kyrmann-gs.com:9252/vone/",
+  "HOST_API": "http://192.168.1.102:9252/vone/",
+  "API_ENDPOINTS": {
+    "comment ": "------------ OPERATIONS UTILISATEUR---------------",
+    "UTILISATEUR": {
+      "ADD": "auth/utilisateur/add",
+      "UPD": "auth/utilisateur/update",
+      "DEL": "auth/utilisateur/delete",
+      "GET": "auth/utilisateur/getall",
+      "CONNECT": "auth/utilisateur/login",
+      "PROFIL_GET": "auth/utilisateur/getprofil",
+      "PROFIL_UPD": "auth/utilisateur/updateprofil",
+      "PROFIL_UPD_PASS": "auth/utilisateur/updatepassword",
+      "PROFIL_FORGOT_PASS": "auth/utilisateur/forgotpassword",
+      "PROFIL_RESET_PASS": "auth/utilisateur/resetpassword"
+    },
+
+    "comment": "------------ OPERATIONS ROLE ------------------",
+    "ROLE": {
+      "ADD": "auth/role/add",
+      "UPD": "auth/role/update",
+      "DEL": "auth/role/delete",
+      "GET": "auth/role/getall"
+    },
+
+    "comment": "------------ OPERATIONS MODEPAIEMENT ------------------",
+    "MODEPAIEMENT": {
+      "ADD": "auth/modepaiement/add",
+      "UPD": "auth/modepaiement/update",
+      "DEL": "auth/modepaiement/delete",
+      "GET": "auth/modepaiement/getall"
+    },
+
+    "comment": "------------ OPERATIONS MODE AUTH ------------------",
+    "MODEAUTH": {
+      "ADD": "auth/modeauthentification/add",
+      "UPD": "auth/modeauthentification/updatestatus",
+      "DEL": "auth/modeauthentification/delete",
+      "GET": "auth/modeauthentification/getall"
+    },
+
+
+    "comment": "------------ OPERATIONS TYPE NOTIFICATION  ------------------",
+    "TYPENOTIFICATION": {
+      "ADD": "auth/typenotification/add",
+      "UPD": "auth/typenotification/updatestatus",
+      "DEL": "auth/typenotification/delete",
+      "GET": "auth/typenotification/getall"
+    },
+
+    "comment": "------------ OPERATIONS PERMISSION ------------------",
+    "PERMISSION": {
+      "ADD": "auth/permission/add",
+      "UPD": "auth/permission/update",
+      "DEL": "auth/permission/delete",
+      "GET": "auth/permission/getall"
+    },
+
+    "comment": "------------ OPERATIONS BANNIERE ------------------",
+    "BANNIERE": {
+      "ADD": "auth/banniere/add",
+      "UPD": "auth/banniere/update",
+      "DEL": "auth/banniere/delete",
+      "GET": "auth/banniere/getall"
+    },
+
+    "comment": "------------ OPERATIONS CONNEXION ------------------",
+    "CONNEXION": {
+      "GET": "auth/connexion/getall"
+    },
+
+    "comment": "------------ OPERATIONS TYPE ZONE ------------------",
+    "TYPEZONE": {
+      "ADD": "match/zoneattribut/add",
+      "UPD": "match/zoneattribut/update",
+      "DEL": "match/zoneattribut/delete",
+      "GET": "match/zoneattribut/getall"
+    },
+
+    "comment": "------------ OPERATIONS TYPE PROPRIETE ------------------",
+    "TYPEPROPRIETE": {
+      "ADD": "match/typepropriete/add",
+      "UPD": "match/typepropriete/update",
+      "DEL": "match/typepropriete/delete",
+      "GET": "match/typepropriete/getall"
+    },
+
+    "comment": "------------ OPERATIONS TYPE REQUETE ------------------",
+    "TYPEREQUETE": {
+      "ADD": "match/typerequete/add",
+      "UPD": "match/typerequete/update",
+      "DEL": "match/typerequete/delete",
+      "GET": "match/typerequete/getall"
+    },
+
+
+
+    "comment": "------------ OPERATIONS COMMODITE ------------------",
+    "COMMODITE": {
+      "ADD": "match/commodite/add",
+      "UPD": "match/commodite/update",
+      "DEL": "match/commodite/delete",
+      "GET": "match/commodite/getall"
+    },
+
+
+
+
+    "comment": "------------ OPERATIONS CARACTERISTIQUE ------------------",
+    "CARACTERISTIQUE": {
+      "ADD": "match/caracteristique/add",
+      "UPD": "match/caracteristique/update",
+      "DEL": "match/caracteristique/delete",
+      "GET": "match/caracteristique/getall"
+    },
+
+
+    "comment": "------------ OPERATIONS ZONE ------------------",
+    "ZONE": {
+      "ADD": "match/zone/add",
+      "UPD": "match/zone/update",
+      "DEL": "match/zone/delete",
+      "GET": "match/zone/getall"
+    },
+
+
+    "comment": "------------ OPERATIONS SUPERFICIE ------------------",
+    "SUPERFICIE":{
+      "ADD": "match/superficie/add",
+      "UPD": "match/superficie/update",
+      "DEL": "match/superficie/delete",
+      "GET": "match/superficie/getall"
+    },
+   
+
+
+    "comment": "------------ OPERATIONS SUPERFICIE - RULE ( EVALUER ) ------------------",
+    "SUPERFICIERULE":{
+      "ADD": "match/evaluer/add",
+      "DEL": "match/evaluer/delete",
+      "GET": "match/evaluer/getall"
+    },
+   
+
+    "comment": "------------ OPERATIONS CRITERES ------------------",
+    "CRITERE": {
+      "ADD": "match/critere/add",
+      "DEL": "match/critere/delete",
+      "GET": "match/critere/getall"
+    },
+   "============": "================================================ BLOG API",
+
+
+   "comment": "------------ OPERATIONS ARTICLE ------------------",
+   "CATEGORIEARTICLE": {
+     "ADD": "blog/categoriearticle/add",
+     "UPD": "blog/categoriearticle/update",
+     "DEL": "blog/categoriearticle/delete",
+     "GET": "blog/categoriearticle/getall"
+   },
+
+
+   "comment": "------------ OPERATIONS ARTICLE ------------------",
+   "ARTICLE": {
+     "ADD": "blog/article/add",
+     "UPD": "blog/article/update",
+     "DEL": "blog/article/delete",
+     "GET": "blog/article/getall"
+   },
+
+
+
+   "comment": "------------ OPERATIONS TAG ------------------",
+   "TAG": {
+     "ADD": "blog/critere/add",
+     "DEL": "blog/critere/delete",
+     "GET": "blog/critere/getall"
+   }
+  },
+
+
+
+  "role": [
+    {
+      "roleid": 2,
+      "rolename": "Admin ALLO"
+    },
+    {
+      "roleid": 3,
+      "rolename": "Agent ALLO"
+    },
+    {
+      "roleid": 4,
+      "rolename": "Admin Hopital"
+    },
+    {
+      "roleid": 5,
+      "rolename": "Agent Hopital"
+    },
+    {
+      "roleid": 6,
+      "rolename": "Medecin"
+    },
+    {
+      "roleid": 1,
+      "rolename": "root"
+    }
+  ],
+
+  "defaultPic": "assets/img/avatars/pic.png",
+
+  "commandestatus": [
+    { "key": "LIVRÉ" },
+    { "key": "PENDING" },
+    { "key": "ANNULÉ" }
+  ],
+
+  "limitSize": 500000,
+
+  "imgVar": "/var/www/html/",
+  "imgHttp": "https://kyrmann-gs.com/",
+
+  "gatewayData": {
+    "user": "gas-oil",
+    "pass": "$2a$12$nL89DLCCmZuRNcx2OXzcYOKVVR3CKwNJQHSdORfowji5yIXjLZiA.",
+    "id_cart": "",
+    "id_customer": "",
+    "url": "",
+    "total_cart": "",
+    "afid": "225",
+    "offreid": "22"
+  },
+  "GSKey": "LQ1ALSIBPZTC8GMP",
+
+  "homeDirectory": "/page/dashboard",
+
+  "TOKEN": "development token",
+  "ErrorMessage": "Erreur lors de l'execution de la requête <br> Verifiez votre connexion réseau",
+  "500Message": "Erreur interne de l'application <br> Contacter l'administrateur de la plateforme",
+  "409Message": "Element Existant",
+  "403Message": "",
+  "400Message": "",
+  "204Message": "",
+  "201Message": "",
+  "200Message": "",
+  "default": "Verifier que vous etes bien connecté au reseau puis rafraichissez la page. <br> Si le probleme persiste , contacter votre administrateur"
+}
